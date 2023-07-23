@@ -12,14 +12,14 @@
     <table>
       <tr>
         <th>ID#</th>
-        <th>Glossary Term</th>
+        <th>Term</th>
         <th>Explanation</th>
         <th>Acknowledgement</th>
       </tr>
-      <% names.forEach((name) => { %>
+      <% names.forEach((name) => {  console.log(name) %>
       <tr>
         <td> <%= name.id %> </td>
-        <td> <%= name.Glossary Term %> </td>
+        <td> <%= name.Term %> </td>
         <td> <%= name.Explanation %> </td>
         <td> <%= name.Acknowledgement %> </td>
      </tr>
