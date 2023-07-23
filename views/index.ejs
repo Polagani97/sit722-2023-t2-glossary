@@ -17,22 +17,13 @@
         <th>Acknowledgement</th>
       </tr>
       <% names.forEach((name) => { %>
-        <tr>
-          <td> 
-            <%= name.id %>
-          </td>
-          <td> 
-           <%= name.Glossary Term %>
-         </td>
-          <td>
-             <%= name.Explanation %> 
-            </td>
-          <td>
-             <%= name.Acknowledgement %> 
-            </td>
-       </tr>
-      <% }); %>
-      </table>
-      </body>
-  </html>
- 
+      <tr>
+        <td> <%= name.id %> </td>
+        <td> <%= name.Glossary Term %> </td>
+        <td> <%= name.Explanation %> </td>
+        <td> <%= name.Acknowledgement %> </td>
+     </tr>
+    <% }); %>
+    </table>
+  </body>
+</html>

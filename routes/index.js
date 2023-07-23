@@ -15,7 +15,6 @@ const nameList = [
 ];
 
 /* GET home page. */
-
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'DevOps Glossary', sub: ' Glossary Terms and their Description ', names: nameList });
 });
